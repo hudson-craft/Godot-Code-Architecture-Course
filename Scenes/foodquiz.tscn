@@ -1,0 +1,64 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Models/FBX format/stallGreen.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Models/FBX format/stallBench.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/food.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Blocky Characters/Models/advancedCharacter.fbx" type="PackedScene" id=4]
+[ext_resource path="res://Models/FBX format/stallStool.fbx" type="PackedScene" id=5]
+[ext_resource path="res://Scripts/food_quiz.gd" type="Script" id=8]
+
+[sub_resource type="SpatialMaterial" id=2]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Food Quiz" type="Spatial"]
+transform = Transform( 2.25, 0, 0, 0, 2.25, 0, 0, 0, 2.25, 4, 0, 0 )
+script = ExtResource( 8 )
+
+[node name="Stall and Furniture" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+
+[node name="stallBench" parent="Stall and Furniture" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0.888889, 0, -3.88546e-08 )
+
+[node name="stallStool" parent="Stall and Furniture" instance=ExtResource( 5 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0.888889 )
+
+[node name="Vendor" parent="." instance=ExtResource( 4 )]
+transform = Transform( 2.40707, 0, -3.73619, 0, 4.44444, 0, 3.73619, 0, 2.40707, -0.347166, 0, -0.759336 )
+
+[node name="Body1" parent="Vendor/RootNode" index="1"]
+material/0 = SubResource( 2 )
+
+[node name="Head1" parent="Vendor/RootNode" index="2"]
+material/0 = SubResource( 2 )
+
+[node name="ArmLeft1" parent="Vendor/RootNode" index="4"]
+material/0 = SubResource( 2 )
+
+[node name="ArmRight1" parent="Vendor/RootNode" index="5"]
+material/0 = SubResource( 2 )
+
+[node name="LegLeft1" parent="Vendor/RootNode" index="6"]
+material/0 = SubResource( 2 )
+
+[node name="LegRight1" parent="Vendor/RootNode" index="7"]
+material/0 = SubResource( 2 )
+
+[node name="Dialog Trigger" type="Area" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Dialog Trigger"]
+transform = Transform( 0.25, 0, 0, 0, 0.1, 0, 0, 0, 0.8, -0.63238, 0.101511, -0.270684 )
+shape = SubResource( 1 )
+
+[node name="Food" parent="." instance=ExtResource( 3 )]
+
+[node name="Food2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.444444, 0.294956 )
+
+[node name="Food3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.444444, -0.298407 )
+
+[connection signal="body_entered" from="Dialog Trigger" to="." method="_on_Dialog_Trigger_body_entered"]
+
+[editable path="Vendor"]

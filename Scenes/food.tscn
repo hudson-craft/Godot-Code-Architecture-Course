@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/food.gd" type="Script" id=1]
+
+[sub_resource type="SphereShape" id=1]
+radius = 0.402624
+
+[node name="Food" type="Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.444444, 0 )
+script = ExtResource( 1 )
+
+[node name="SpotLight" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37115e-08, 1, 0, -1, -4.37115e-08, 0, 0.468182, 0 )
+spot_range = 1.728
+spot_attenuation = 0.659754
+spot_angle = 22.11
+spot_angle_attenuation = 0.63728
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0.0422049, 0 )
+shape = SubResource( 1 )
