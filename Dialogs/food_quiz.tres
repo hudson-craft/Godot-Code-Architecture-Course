@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/dialog.gd" type="Script" id=1]
+[ext_resource path="res://Blocky Characters/Faces/face_robot.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+avatar_texture = ExtResource( 2 )
+dialog_slides = [ "Oh, looks like you're hungry.", "Choose your food by lookin' over there and givin' it a click." ]

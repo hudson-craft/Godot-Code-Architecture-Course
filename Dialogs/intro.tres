@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Blocky Characters/Faces/face_robot.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/dialog.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+avatar_texture = ExtResource( 1 )
+dialog_slides = [ "Welcome, traveler. Glad you made it.", "Feel free to peruse my wares.", "If you see something that tickles your fancy, just let me know." ]
