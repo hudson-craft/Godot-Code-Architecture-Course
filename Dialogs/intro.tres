@@ -6,4 +6,4 @@
 [resource]
 script = ExtResource( 2 )
 avatar_texture = ExtResource( 1 )
-dialog_slides = [ "Welcome, traveler. Glad you made it.", "Feel free to peruse my wares.", "If you see something that tickles your fancy, just let me know." ]
+dialog_slides = [ "Welcome, traveler. Glad you made it.", "Feel free to peruse our wares.", "If you see something that tickles your fancy, just let me know." ]
