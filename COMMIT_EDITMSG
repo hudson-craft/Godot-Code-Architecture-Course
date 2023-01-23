@@ -1,0 +1,120 @@
+Initial Commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch code-architecture-course
+# Your branch is up to date with 'origin/code-architecture-course'.
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   Blocky Characters/Faces/face_adventurer.png
+#	new file:   Blocky Characters/Faces/face_adventurer.png.import
+#	new file:   Blocky Characters/Faces/face_man.png
+#	new file:   Blocky Characters/Faces/face_man.png.import
+#	new file:   Blocky Characters/Faces/face_manAlternative.png
+#	new file:   Blocky Characters/Faces/face_manAlternative.png.import
+#	new file:   Blocky Characters/Faces/face_orc.png
+#	new file:   Blocky Characters/Faces/face_orc.png.import
+#	new file:   Blocky Characters/Faces/face_robot.png
+#	new file:   Blocky Characters/Faces/face_robot.png.import
+#	new file:   Blocky Characters/Faces/face_soldier.png
+#	new file:   Blocky Characters/Faces/face_soldier.png.import
+#	new file:   Blocky Characters/Faces/face_woman.png
+#	new file:   Blocky Characters/Faces/face_woman.png.import
+#	new file:   Blocky Characters/Faces/face_womanAlternative.png
+#	new file:   Blocky Characters/Faces/face_womanAlternative.png.import
+#	new file:   Blocky Characters/Models/Non-rigged/advancedCharacter.3ds
+#	new file:   Blocky Characters/Models/Non-rigged/advancedCharacter.obj
+#	new file:   Blocky Characters/Models/Non-rigged/advancedCharacter.obj.import
+#	new file:   Blocky Characters/Models/Non-rigged/advancedCharacter.obj.mtl
+#	new file:   Blocky Characters/Models/Non-rigged/basicCharacter.3ds
+#	new file:   Blocky Characters/Models/Non-rigged/basicCharacter.obj
+#	new file:   Blocky Characters/Models/Non-rigged/basicCharacter.obj.import
+#	new file:   Blocky Characters/Models/Non-rigged/basicCharacter.obj.mtl
+#	new file:   Blocky Characters/Models/Non-rigged/glTF/advancedCharacter.gltf
+#	new file:   Blocky Characters/Models/Non-rigged/glTF/advancedCharacter.gltf.import
+#	new file:   Blocky Characters/Models/Non-rigged/glTF/basicCharacter.gltf
+#	new file:   Blocky Characters/Models/Non-rigged/glTF/basicCharacter.gltf.import
+#	new file:   Blocky Characters/Models/Non-rigged/glTF/lambert1.material
+#	new file:   Blocky Characters/Models/advancedCharacter.fbx
+#	new file:   Blocky Characters/Models/advancedCharacter.fbx.import
+#	new file:   Blocky Characters/Models/advancedCharacterUV.tga
+#	new file:   Blocky Characters/Models/advancedCharacterUV.tga.import
+#	new file:   Blocky Characters/Models/basicCharacter.fbx
+#	new file:   Blocky Characters/Models/basicCharacter.fbx.import
+#	new file:   Blocky Characters/Models/basicCharacterUV.tga
+#	new file:   Blocky Characters/Models/basicCharacterUV.tga.import
+#	new file:   Blocky Characters/Models/lambert1.material
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_adventurer.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_adventurer.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_man.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_man.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_manAlternative.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_manAlternative.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_orc.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_orc.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_robot.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_robot.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_soldier.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_soldier.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_woman.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_woman.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_womanAlternative.svg
+#	new file:   Blocky Characters/Skins/Advanced/Vector/skin_womanAlternative.svg.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_adventurer.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_adventurer.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_man.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_man.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_manAlternative.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_manAlternative.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_orc.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_orc.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_robot.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_robot.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_soldier.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_soldier.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_woman.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_woman.png.import
+#	new file:   Blocky Characters/Skins/Advanced/skin_womanAlternative.png
+#	new file:   Blocky Characters/Skins/Advanced/skin_womanAlternative.png.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_adventurer.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_adventurer.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_man.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_man.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_manAlternative.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_manAlternative.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_orc.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_orc.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_robot.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_robot.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_soldier.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_soldier.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_woman.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_woman.svg.import
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_womanAlternative.svg
+#	new file:   Blocky Characters/Skins/Basic/Vector/skin_womanAlternative.svg.import
+#	new file:   Blocky Characters/Skins/Basic/skin_adventurer.png
+#	new file:   Blocky Characters/Skins/Basic/skin_adventurer.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_man.png
+#	new file:   Blocky Characters/Skins/Basic/skin_man.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_manAlternative.png
+#	new file:   Blocky Characters/Skins/Basic/skin_manAlternative.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_orc.png
+#	new file:   Blocky Characters/Skins/Basic/skin_orc.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_robot.png
+#	new file:   Blocky Characters/Skins/Basic/skin_robot.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_soldier.png
+#	new file:   Blocky Characters/Skins/Basic/skin_soldier.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_woman.png
+#	new file:   Blocky Characters/Skins/Basic/skin_woman.png.import
+#	new file:   Blocky Characters/Skins/Basic/skin_womanAlternative.png
+#	new file:   Blocky Characters/Skins/Basic/skin_womanAlternative.png.import
+#	new file:   Dialogs/food_quiz.tres
+#	new file:   Dialogs/fruit_chat.tres
+#	new file:   Dialogs/intro.tres
+#	new file:   Fonts/Kenney Pixel.ttf
+#	new file:   default_env.tres
+#	new file:   icon.png
+#	new file:   icon.png.import
+#	new file:   project.godot
+#
